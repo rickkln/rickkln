@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{ margin: 0 }}>
         <Link
-          to="/"
+          to=""
           style={{
             color: `white`,
             textDecoration: `none`,
@@ -26,6 +26,9 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        <Link to="">About</Link>
+        <Link to="latest">Latest</Link>
+        <Link to="cv">CV</Link>
       </h1>
     </div>
   </header>
