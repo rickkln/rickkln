@@ -6,41 +6,29 @@ module.exports = {
     node: true,
   },
   extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended",
+    'plugin:react/recommended',
+    'airbnb-typescript',
   ],
   globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly",
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
   },
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2018,
-    sourceType: "module",
+    project: './tsconfig.json',
   },
-  plugins: ["@typescript-eslint", "react"],
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'react-hooks',
+  ],
   settings: {
     react: {
-      version: "detect",
+      version: 'detect',
     },
   },
   rules: {
-    "react/prop-types": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
-  overrides: [
-    // Override some TypeScript rules just for .js files
-    {
-      files: ["*.js"],
-      rules: {
-        "@typescript-eslint/no-var-requires": "off", //
-      },
-    },
-  ],
-}
+};

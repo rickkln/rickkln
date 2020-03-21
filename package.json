@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "Rick Kleinhans <me@rickkln.com>",
   "dependencies": {
-    "@types/react-helmet": "^5.0.15",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
@@ -24,24 +23,24 @@
     "@types/node": "^13.9.2",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
+    "@types/react-helmet": "^5.0.15",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-airbnb-typescript": "^7.2.0",
     "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "prettier": "^1.19.1",
+    "eslint-plugin-react-hooks": "^2.5.1",
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "develop": "gatsby develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && firebase deploy"
+    "build": "gatsby build",
+    "deploy": "gatsby build && firebase deploy",
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
