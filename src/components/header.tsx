@@ -1,13 +1,12 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
-import Image from './image';
+import Photo from './photo';
 
 interface Props {
   siteTitle: string
 }
 
-const Header = ({ siteTitle }: Props) => (
+const Header = ({ siteTitle = '' }: Props) => (
   <header
     style={{
       background: 'rebeccapurple',
@@ -21,7 +20,7 @@ const Header = ({ siteTitle }: Props) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <Image />
+      <Photo />
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -39,13 +38,5 @@ const Header = ({ siteTitle }: Props) => (
     </div>
   </header>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: '',
-};
 
 export default Header;
