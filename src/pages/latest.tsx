@@ -5,8 +5,13 @@ import SEO from '../components/seo';
 const IndexPage = () => (
   <Layout>
     <SEO title="Latest" />
-    <h1>Latest</h1>
-    <p>Welcome to latest.</p>
+    <a
+      className="twitter-timeline"
+      data-theme="light"
+      href="https://twitter.com/RickKLN?ref_src=twsrc%5Etfw"
+    >
+      Tweets by RickKLN
+    </a>
   </Layout>
 );
 
