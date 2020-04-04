@@ -9,9 +9,9 @@ const IndexPage = () => (
       I am currently not looking for a job.
     </p>
     <p>
-      If you plan on ignoring the statment above and contacting me about a job, you should
-      know that I will probably mark your message as spam if the position doesn&apos;t
-      at least meet the following requirements:
+      I do understand that if you are on this page you might ignore the above and contact me about
+      a job anyway. In that case you should know that I will probably mark your message as spam if
+      the position doesn&apos;t at least meet the following requirements:
     </p>
     <ul>
       <li>
@@ -24,7 +24,7 @@ const IndexPage = () => (
         Is for a JavaScript, Swift or Leadership role
       </li>
       <li>
-        Includes either, visa Sponsorship for the USA, or Full Remote
+        Includes either, visa sponsorship and relocation to the US, or full remote
       </li>
     </ul>
   </Layout>
