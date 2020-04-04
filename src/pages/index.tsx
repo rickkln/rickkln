@@ -13,7 +13,7 @@ const IndexPage = () => (
       I am currently working as an engineering manager at
       {' '}
       <a href="https://luno.com">Luno</a>
-      . There I help a couple of our teams deliver some of the most loved, and widely used,
+      . I help a couple of our teams deliver some of the most loved, and widely used,
       products in the crypto industry.
     </p>
     <p>
@@ -23,7 +23,7 @@ const IndexPage = () => (
       {' '}
       <a href="https://activitar.com">Activitar</a>
       {' '}
-      on their journey from being idea to becoming the largest activity platform in Africa.
+      go from an idea to the largest activity platform in Africa.
     </p>
     <p>
       Throughout my career I have tinkered primarily in JavaScript and Swift, but have also dabbled
