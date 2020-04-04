@@ -7,7 +7,7 @@ const Photo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "rickkln.png" }) {
         childImageSharp {
-          fluid(maxWidth: 250) {
+          fluid(maxWidth: 180) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -18,11 +18,12 @@ const Photo = () => {
   return (
     <Img
       style={{
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        maxWidth: '250px',
-        maxHeight: '250px',
-        borderRadius: '250px',
+        margin: '0 auto 0.8rem',
+        minWidth: '125px',
+        minHeight: '125px',
+        maxWidth: '180px',
+        maxHeight: '180px',
+        borderRadius: '180px',
         borderStyle: 'solid',
         borderWidth: '5px',
       }}

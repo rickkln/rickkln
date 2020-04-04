@@ -7,7 +7,7 @@ import Photo from './photo';
 
 const linkStyle: CSSProperties = {
   textDecoration: 'none',
-  margin: '0 10px',
+  margin: '0 0.8rem',
 };
 
 const activeStyle: CSSProperties = {
@@ -17,21 +17,21 @@ const activeStyle: CSSProperties = {
 const Header = () => (
   <header
     style={{
-      marginBottom: '1.45rem',
     }}
   >
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        maxWidth: 760,
+        padding: '1.4rem 1.0875rem 1rem',
         display: 'flex',
         justifyContent: 'space-evenly',
+        flexWrap: 'wrap',
       }}
     >
       <div
         style={{
-          flex: '250px',
+          flex: '1',
         }}
       >
         <Link to="/">
@@ -40,24 +40,43 @@ const Header = () => (
       </div>
       <div
         style={{
-          flex: '250px',
+          margin: '0.8rem 0 0 0.8rem',
+          flex: '2.3',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
         }}
       >
-        <h1
-          style={{
-            margin: 0,
-            textAlign: 'center',
-          }}
-        >
-          <Link to="/" style={linkStyle} activeStyle={activeStyle}>About</Link>
-          <Link to="/latest" style={linkStyle} activeStyle={activeStyle}>Latest</Link>
-          <Link to="/cv" style={linkStyle} activeStyle={activeStyle}>CV</Link>
-        </h1>
-        <div style={{ textAlign: 'center' }}>
-          <a href="https://twitter.com/rickkln" aria-label="Twitter"><FaTwitter /></a>
-          <a href="https://github.com/rick-kln" aria-label="Github"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/rick-kleinhans-43773161/" aria-label="Linkedin"><FaLinkedin /></a>
-          <a href="mailto:hi@rickkln.com" aria-label="Mail"><FaRegEnvelope /></a>
+        <div>
+          <h1
+            style={{
+              marginBottom: '1rem',
+              textAlign: 'center',
+            }}
+          >
+            <Link to="/" style={linkStyle} activeStyle={activeStyle}>About</Link>
+            <Link to="/latest" style={linkStyle} activeStyle={activeStyle}>Latest</Link>
+            <Link to="/cv" style={linkStyle} activeStyle={activeStyle}>CV</Link>
+          </h1>
+          <div
+            style={{
+              textAlign: 'center',
+              fontSize: '2em',
+            }}
+          >
+            <a href="https://twitter.com/rickkln" aria-label="Twitter">
+              <FaTwitter style={{ margin: '10' }} />
+            </a>
+            <a href="https://github.com/rick-kln" aria-label="Github">
+              <FaGithub style={{ margin: '10' }} />
+            </a>
+            <a href="https://www.linkedin.com/in/rick-kleinhans-43773161/" aria-label="Linkedin">
+              <FaLinkedin style={{ margin: '10' }} />
+            </a>
+            <a href="mailto:hi@rickkln.com" aria-label="Mail">
+              <FaRegEnvelope style={{ margin: '10' }} />
+            </a>
+          </div>
         </div>
       </div>
     </div>
