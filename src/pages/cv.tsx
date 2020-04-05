@@ -6,25 +6,29 @@ const IndexPage = () => (
   <Layout>
     <SEO title="CV" />
     <p>
-      I am currently not looking for a job.
+      I am currently not looking for a job, thanks though!
     </p>
     <p>
-      I do understand that if you are on this page you might ignore the above and contact me about
-      a job anyway. In that case you should know that I will probably mark your message as spam if
-      the position doesn&apos;t at least meet the following requirements:
+      I do understand that if you are on this page you might decide to contact me for
+      my CV anyway
+      {' '}
+      <span role="img" aria-labelledby="wink">😄</span>
+      {' '}
+      In that case you should know that I probably won&apos;t consider your position
+      if is does not involve:
     </p>
     <ul>
       <li>
-        Involves creating a product people love
+        Creating a product people love
       </li>
       <li>
-        Is being offerred by a highly ethical company
+        Working for a highly ethical company
       </li>
       <li>
-        Is for a JavaScript, Swift or Leadership role
+        Working in a JavaScript, Swift or Leadership role
       </li>
       <li>
-        Includes either, visa sponsorship and relocation to the US, or full remote
+        Either, visa sponsorship & relocation to the US, or full remote
       </li>
     </ul>
   </Layout>
