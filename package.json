@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple site about me",
   "version": "0.1.0",
-  "author": "Rick Kleinhans <me@rickkln.com>",
+  "author": "Rick Kleinhans <hi@rickkln.com>",
   "dependencies": {
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
