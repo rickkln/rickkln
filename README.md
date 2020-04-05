@@ -1,8 +1,10 @@
-<p align="center">
+<p align="center" width="100">
   <a href="https://www.rickkln.com">
-    <img alt="RickKLN" src="https://rickkln.com/static/56f0c3d2d9cbe846580d4e7b53046bc6/f4094/rickkln.png" width="100" style="border-radius: 100px;" />
+  
+  ![rickkln](/src/images/rickkln-circle.png?raw=true)
   </a>
 </p>
+
 <h1 align="center">
   Rick Kleinhans' Personal Site
 </h1>
