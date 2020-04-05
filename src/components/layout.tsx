@@ -19,8 +19,9 @@ const Layout = ({ children }: Props) => (
       <main>{children}</main>
       <footer
         style={{
-          margin: '1.45rem 0 0',
+          margin: '2.2rem 0 0',
           textAlign: 'center',
+          fontSize: '0.8rem',
         }}
       >
         Made with
@@ -30,6 +31,8 @@ const Layout = ({ children }: Props) => (
         by
         {' '}
         <a href="https://twitter.com/rickkln">@rickkln</a>
+        <br />
+        <a href="https://github.com/rickkln/rickkln">View Source</a>
       </footer>
     </div>
   </>
