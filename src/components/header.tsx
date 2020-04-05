@@ -66,7 +66,7 @@ const Header = () => (
             <a href="https://twitter.com/rickkln" aria-label="Twitter">
               <FaTwitter style={{ margin: '10' }} />
             </a>
-            <a href="https://github.com/rick-kln" aria-label="Github">
+            <a href="https://github.com/rickkln" aria-label="Github">
               <FaGithub style={{ margin: '10' }} />
             </a>
             <a href="https://www.linkedin.com/in/rick-kleinhans-43773161/" aria-label="Linkedin">
