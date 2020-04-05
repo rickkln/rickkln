@@ -40,7 +40,6 @@ const Header = () => (
       </div>
       <div
         style={{
-          margin: '0.8rem 0 0 0.8rem',
           flex: '2.3',
           display: 'flex',
           justifyContent: 'center',
