@@ -69,7 +69,7 @@ In the absence of herd immunity, cure or vaccination, we need to: logistically c
 1. By *Crushing the Curve* and eradicating the virus at all costs we will save a large amount of lives, and ensure that there exists a future which includes a functioning economy.
 1. Yes, all of the above being said, once a cure or vaccine emerges everything changes.
 
-To summarize, there is no choice between the economy and the virus. There is no choice to go "back to work", until the virus is defeated that "work" doesn't exist. Presenting that option as a real existing option is a lie, and an dangerous one when presented by those with influence. The only option is to defeat the virus at all costs, the only option is to *Crush the Curve*.
+To summarize, there is no choice between the economy and the virus. There is no choice to go "back to work", until the virus is defeated that "work" doesn't exist. Presenting that option as a real existing option is a lie, and a dangerous one when presented by those with influence. The only option is to defeat the virus at all costs, the only option is to *Crush the Curve*.
 
 Implementing and supporting a lockdown here in South Africa is paramount, not only to save lives, but to save our economy. We listened to the illusion of an "economy vs lives" argument in February when we decided against an immediate travel ban, our country paid with lives and part of our economy. Now some are urging us to roll the dice with yet more lives and livelihoods. I feel it my duty to oppose this position as strongly as I possibly can.
 
