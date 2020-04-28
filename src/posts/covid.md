@@ -1,6 +1,6 @@
 ---
 path: "/blog/covid-stop-fighting-the-lockdown"
-date: "2019-04-19"
+date: "2020-04-19"
 title: "Stop Fighting The Lockdown"
 ---
 
