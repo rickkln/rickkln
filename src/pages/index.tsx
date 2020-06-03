@@ -26,7 +26,7 @@ const IndexPage = () => (
       go from an idea to the largest activity platform in Africa.
     </p>
     <p>
-      Throughout my career I have tinkered primarily in JavaScript and Swift, but have also dabbled
+      Throughout the years I have tinkered primarily in JavaScript and Swift, but have also dabbled
       in Ruby, Python, Kotlin, Java, and C.
     </p>
   </Layout>
