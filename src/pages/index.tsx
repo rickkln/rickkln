@@ -27,7 +27,7 @@ const IndexPage = () => (
     </p>
     <p>
       Throughout the years I have tinkered primarily in JavaScript and Swift, but have also dabbled
-      in Ruby, Python, Kotlin, Java, and C.
+      in Go, Ruby, Python, Kotlin, Java, and C.
     </p>
   </Layout>
 );
