@@ -55,7 +55,6 @@ const Header = () => (
           >
             <Link to="/" style={linkStyle} activeStyle={activeStyle}>About</Link>
             <Link to="/latest" style={linkStyle} activeStyle={activeStyle}>Latest</Link>
-            <Link to="/cv" style={linkStyle} activeStyle={activeStyle}>CV</Link>
           </h1>
           <div
             style={{
